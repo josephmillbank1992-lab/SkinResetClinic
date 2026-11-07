@@ -67,7 +67,7 @@ test("treatment prices, durations and booking terms match the supplied brief", (
   for (const item of [
     "48 hours’ notice",
     "£20 deposit by bank transfer",
-    "the deposit will be retained",
+    "the deposit will normally be retained, subject to applicable consumer rights",
     "cash or bank transfer",
   ])
     assert.ok(policy.includes(item), item);

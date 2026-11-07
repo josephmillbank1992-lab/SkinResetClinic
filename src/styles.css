@@ -1571,3 +1571,9 @@ details p {
     transform: none;
   }
 }
+
+/* The shared wordmark keeps the corrected tagline consistent. */
+.clinic-brand { flex-direction: column; text-align: center; gap: 24px; }
+.brand-panel .clinic-brand img { width: 150px; height: 165px; }
+.seasonal h2 { font-size: clamp(30px, 4vw, 40px); margin-bottom: 16px; }
+.booking-links { flex-wrap: wrap; }

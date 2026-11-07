@@ -17,12 +17,11 @@ export const treatments = [
     image: "reset-facial.webp",
     alt: "Cream skincare texture in warm neutral tones",
     summary:
-      "A personalised facial to refresh and rebalance your skin, with cleansing, targeted treatment and a relaxing facial massage.",
+      "A personalised facial combining targeted skincare and relaxing facial massage to support healthier, more radiant skin.",
     introduction:
       "A personalised facial combining professional skincare with relaxation.",
     paragraphs: [
-      "Every appointment starts with a consultation and skin analysis. Depending on your skin’s needs, your facial may include a double cleanse, enzyme exfoliation with steam, warm towels, a relaxing face, neck and décolleté massage, a tailored treatment mask and finishing serums, moisturiser and SPF.",
-      "Dermalux LED light therapy can also be incorporated where appropriate. Other elements of the facial, such as massage, are adapted to allow sufficient time.",
+      "Depending on your skin’s needs, your facial may include a double cleanse, enzyme exfoliation with steam, warm towels, a relaxing face, neck and décolleté massage, a tailored treatment mask and finishing serums, moisturiser and SPF.",
     ],
   },
   {
@@ -33,13 +32,14 @@ export const treatments = [
     image: "advanced-reset.webp",
     alt: "A clear skincare serum with delicate bubbles",
     summary:
-      "A more targeted treatment to support specific skin concerns, with the added benefit of an advanced Oxygen Rx or Firming Peptide Mask.",
+      "An extended, personalised facial incorporating advanced Circadia treatments, such as Oxygen Rx or the Firming Peptide Mask, selected according to your skin’s needs.",
     introduction:
-      "A more intensive, personalised facial incorporating advanced Circadia treatment options.",
+      "An extended, personalised facial incorporating advanced Circadia treatment options.",
     paragraphs: [
       "Your treatment may follow a similar format to The Reset Facial, with products and techniques chosen around your individual skin concerns and goals.",
-      "Oxygen Rx is designed to support skin clarity and leave the complexion looking brighter and refreshed. The Firming Peptide Mask is designed to support microcirculation and leave the skin looking firmer, smoother and more revitalised.",
-      "LED therapy may also be incorporated where appropriate, depending on the treatment and time available.",
+      "Oxygen Rx is designed to support skin clarity and leave the complexion looking brighter and refreshed.",
+      "The Firming Peptide Mask is designed to support microcirculation and leave the skin looking firmer, smoother and more revitalised.",
+      "The most appropriate treatment will be selected according to your skin’s needs.",
     ],
   },
   {
@@ -50,7 +50,7 @@ export const treatments = [
     image: "led-reset.webp",
     alt: "Warm light from an illustrative LED treatment canopy",
     summary:
-      "A results-focused, calming treatment using the Dermalux Flex MD LED system to support your skin and overall skin health.",
+      "A gentle, non-invasive light therapy treatment using the Dermalux Flex MD to target a range of skin concerns, support skin health and encourage natural skin rejuvenation.",
     introduction:
       "A standalone, non-invasive treatment using Dermalux Flex MD LED light therapy.",
     paragraphs: [
