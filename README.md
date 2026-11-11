@@ -31,7 +31,7 @@ All bookings are direct enquiries by WhatsApp, text or social media. There is no
 
 ## Before the public launch
 
-- Replace illustrative skincare imagery with Amy’s photography when available. The current imagery is not presented as photographs of Amy or the clinic.
+- Amy’s ten supplied photographs are placed according to The Skin Reset Clinic Photos and Pages guide. Optimised WebP versions are in `public/assets/`.
 - Add the exact Facebook page URL when supplied; a guessed link is deliberately not used.
 - Obtain Amy’s full privacy notice if she wants it published. The current privacy page offers it on request, as instructed.
 - Confirm the purchased domain, then add canonical URLs, a sitemap and an absolute social sharing image URL for that domain. No unregistered domain is assumed in the build.

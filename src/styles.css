@@ -1577,3 +1577,40 @@ details p {
 .brand-panel .clinic-brand img { width: 150px; height: 165px; }
 .seasonal h2 { font-size: clamp(30px, 4vw, 40px); margin-bottom: 16px; }
 .booking-links { flex-wrap: wrap; }
+
+/* Real clinic photography, matched to Amy’s page guide. */
+.hero { background: var(--paper); }
+.hero-image { left: auto; width: 56%; object-position: center 42%; }
+.hero:before { background: linear-gradient(90deg, #fcf8f3 40%, #fcf8f3d9 49%, transparent 68%); }
+.home-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 35px; padding-block: 45px 15px; }
+.home-photos figure { margin: 0; }
+.home-photos img { width: 100%; height: 480px; object-fit: cover; object-position: center 35%; }
+.home-photos figcaption { font-family: var(--serif); font-size: 29px; padding-top: 16px; }
+.editorial-image img { object-position: center 40%; }
+.clinic-photo { height: auto; }
+.clinic-photo img { height: auto; }
+.treatment-photo img { height: auto; object-position: center 38%; }
+.detail-visual img { height: auto; aspect-ratio: auto; }
+.detail-visual .detail-secondary { margin-top: 20px; }
+@media (max-width: 999px) {
+ .hero-image { width: 58%; }
+ .hero:before { background: linear-gradient(90deg, #fcf8f3 35%, #fcf8f3db 45%, transparent 75%); }
+ .home-photos img { height: 370px; }
+}
+@media (max-width: 640px) {
+ .hero { min-height: 0; display: flex; flex-direction: column-reverse; }
+ .hero-image { position: static; width: 100%; height: auto; aspect-ratio: 1; object-position: center 38%; z-index: auto; }
+ .hero:before { display: none; }
+ .hero-content { padding-block: 35px; }
+ .hero h1 { font-size: 62px; }
+ .hero-description { max-width: none; }
+ .hero-actions { flex-direction: row; flex-wrap: wrap; }
+ .home-photos { gap: 20px; padding-top: 30px; }
+ .home-photos img { height: auto; aspect-ratio: 0.72; }
+ .home-photos figcaption { font-size: 23px; line-height: 1.15; }
+ .editorial-image { height: auto; }
+ .editorial-image img { height: auto; }
+}
+
+.detail-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: center; }
+.detail-pair .detail-secondary { margin-top: 0; }

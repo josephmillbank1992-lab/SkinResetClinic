@@ -14,8 +14,10 @@ export const treatments = [
     name: "The Reset Facial",
     duration: 60,
     price: 75,
-    image: "reset-facial.webp",
-    alt: "Cream skincare texture in warm neutral tones",
+    image: "reset-massage.webp",
+    secondImage: "reset-facial-massage.webp",
+    secondAlt: "Amy providing a relaxing facial massage at The Skin Reset Clinic",
+    alt: "Amy massaging a client’s face during The Reset Facial",
     summary:
       "A personalised facial combining targeted skincare and relaxing facial massage to support healthier, more radiant skin.",
     introduction:
@@ -29,8 +31,10 @@ export const treatments = [
     name: "The Advanced Reset Facial",
     duration: 75,
     price: 90,
-    image: "advanced-reset.webp",
-    alt: "A clear skincare serum with delicate bubbles",
+    image: "advanced-mask.webp",
+    secondImage: "advanced-facial-application.webp",
+    secondAlt: "Amy applying a professional facial treatment with a brush",
+    alt: "Amy applying a treatment mask during The Advanced Reset Facial",
     summary:
       "An extended, personalised facial incorporating advanced Circadia treatments, such as Oxygen Rx or the Firming Peptide Mask, selected according to your skin’s needs.",
     introduction:
@@ -47,8 +51,8 @@ export const treatments = [
     name: "LED Skin Reset",
     duration: 50,
     price: 45,
-    image: "led-reset.webp",
-    alt: "Warm light from an illustrative LED treatment canopy",
+    image: "dermalux-led.webp",
+    alt: "A client relaxing beneath the Dermalux LED canopy while wearing protective eyewear",
     summary:
       "A gentle, non-invasive light therapy treatment using the Dermalux Flex MD to target a range of skin concerns, support skin health and encourage natural skin rejuvenation.",
     introduction:
