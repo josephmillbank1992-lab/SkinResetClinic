@@ -66,6 +66,10 @@ export const treatments = [
 
 export const reviews = [
   {
+    name: "Laura",
+    quote: "I had such a lovely facial! Amy really took the time to understand my skin and what I wanted from the treatment. I loved that nothing felt like a set routine and everything was chosen specifically for me, from the products she used to the facial itself. It felt really personal and was so relaxing. My skin felt amazing afterwards and I left feeling completely refreshed and glowing. Would definitely recommend!",
+  },
+  {
     name: "Jo",
     quote:
       "I was totally at ease through the whole experience. The thorough personal consultation, beautiful room and heated bed were all really lovely. The facial and massage were perfect and my skin feels so fresh and soft.",

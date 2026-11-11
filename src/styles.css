@@ -1614,3 +1614,8 @@ details p {
 
 .detail-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: center; }
 .detail-pair .detail-secondary { margin-top: 0; }
+
+.gift-vouchers { text-align: center; padding-block: 65px; max-width: 850px; }
+.gift-vouchers h2 { margin-block: 20px; }
+.gift-vouchers .button { margin-top: 28px; }
+@media (max-width: 640px) { .gift-vouchers { padding-block: 45px; } }
