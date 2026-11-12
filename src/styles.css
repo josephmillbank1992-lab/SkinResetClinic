@@ -1630,3 +1630,9 @@ details p {
 .offer-was { display: inline-block; font-size: 15px; color: #6e6056; margin-left: 10px; }
 .offer-copy .button { margin-top: 24px; white-space: normal; text-align: center; }
 @media (max-width: 640px) { .offer-grid { grid-template-columns: 1fr; gap: 30px; } .offer-copy { padding: 24px; } .offer-copy h3 { font-size: 35px; } }
+
+/* Text-only treatment summaries and the supplied personal details. */
+.treatment-card h3 { margin-top: 0; }
+.gift-voucher-image { display: block; width: 100%; height: auto; margin: 35px auto 0; }
+.editorial-image.amy-portrait { height: auto; }
+.editorial-image.amy-portrait img { width: 100%; height: auto; }

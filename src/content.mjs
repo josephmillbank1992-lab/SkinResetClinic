@@ -32,8 +32,6 @@ export const treatments = [
     duration: 75,
     price: 90,
     image: "advanced-mask.webp",
-    secondImage: "advanced-facial-application.webp",
-    secondAlt: "Amy applying a professional facial treatment with a brush",
     alt: "Amy applying a treatment mask during The Advanced Reset Facial",
     summary:
       "An extended, personalised facial incorporating advanced Circadia treatments, such as Oxygen Rx or the Firming Peptide Mask, selected according to your skin’s needs.",
