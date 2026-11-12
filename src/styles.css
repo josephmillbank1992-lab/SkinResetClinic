@@ -1636,3 +1636,7 @@ details p {
 .gift-voucher-image { display: block; width: 100%; height: auto; margin: 35px auto 0; }
 .editorial-image.amy-portrait { height: auto; }
 .editorial-image.amy-portrait img { width: 100%; height: auto; }
+
+/* Hide the screenshot badge through framing, leaving the supplied photo untouched. */
+.editorial-image.amy-portrait { position: relative; aspect-ratio: 7 / 10; overflow: hidden; }
+.editorial-image.amy-portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: left center; }
