@@ -2,6 +2,7 @@ export const clinic = {
   name: "The Skin Reset Clinic",
   location: "Cheadle Hulme",
   phone: "07814 079580",
+  bookingUrl: "https://skin-reset-booking.vercel.app/book",
   whatsapp: "https://wa.me/447814079580",
   instagram: "https://www.instagram.com/theskinresetclinicuk/",
   // Add the exact Facebook page URL when supplied. Do not guess a page slug.

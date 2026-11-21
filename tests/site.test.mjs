@@ -66,7 +66,7 @@ test("treatment prices, durations and booking terms match the supplied brief", (
   const policy = pages.find((p) => p.route === "/booking-information/").html;
   for (const item of [
     "48 hours’ notice",
-    "£20 deposit by bank transfer",
+    "£20 deposit per treatment, paid securely by card online",
     "the deposit will normally be retained, subject to applicable consumer rights",
     "cash or bank transfer",
   ])
